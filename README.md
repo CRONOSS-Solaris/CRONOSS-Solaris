@@ -74,7 +74,7 @@
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=CRONOSS-Solaris&hide_border=true&border_radius=10&background=0A0A0A&stroke=333333&ring=ff2a6d&fire=ff2a6d&currStreakNum=19d3da&currStreakLabel=ff2a6d&sideNums=19d3da&sideLabels=E6EDF3&dates=8B949E" width="49%" alt="GitHub streak" />
+<img src="https://streak-stats.demolab.com?user=CRONOSS-Solaris&mode=weekly&hide_border=true&border_radius=10&background=0A0A0A&stroke=333333&ring=ff2a6d&fire=ff2a6d&currStreakNum=19d3da&currStreakLabel=ff2a6d&sideNums=19d3da&sideLabels=E6EDF3&dates=8B949E" width="49%" alt="GitHub streak" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=CRONOSS-Solaris&bg_color=0A0A0A&color=19d3da&title_color=E6EDF3&line=ff2a6d&point=19d3da&area_color=ff2a6d&hide_border=true&area=true&radius=10" width="98%" alt="Contribution graph" />
 
