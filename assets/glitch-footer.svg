@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="56" viewBox="0 0 900 56" role="img" aria-label="">
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" opacity="0.05"/>
+    </pattern>
+    <linearGradient id="edge" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#ff2a6d"/>
+      <stop offset="1" stop-color="#19d3da"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="56" rx="12" fill="#050505"/>
+  <rect width="900" height="56" rx="12" fill="url(#scan)"/>
+  <rect x="0.5" y="0.5" width="899" height="55" rx="12" fill="none" stroke="url(#edge)" stroke-opacity="0.55"/>
+
+  <rect x="60" y="27" width="780" height="2" fill="url(#edge)" opacity="0.8">
+    <animate attributeName="x" dur="3.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.60;0.64;0.68;0.72;1" values="60;48;76;54;60;60"/>
+  </rect>
+  <rect x="0" y="18" width="0" height="4" fill="#19d3da" opacity="0.85">
+    <animate attributeName="x" dur="3.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.60;0.64;0.68;0.72;1" values="0;210;520;140;0;0"/>
+    <animate attributeName="width" dur="3.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.60;0.64;0.68;0.72;1" values="0;120;60;180;0;0"/>
+  </rect>
+  <rect x="0" y="34" width="0" height="3" fill="#ff2a6d" opacity="0.85">
+    <animate attributeName="x" dur="3.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.18;0.21;0.24;0.62;0.66;0.70;1" values="0;600;340;0;470;180;690;0"/>
+    <animate attributeName="width" dur="3.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.18;0.21;0.24;0.62;0.66;0.70;1" values="0;90;150;0;70;130;60;0"/>
+  </rect>
+</svg>

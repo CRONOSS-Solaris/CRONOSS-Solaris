@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" role="img" aria-label="Dawid Kondracki - Co-founder and Lead Engineer @ finoo">
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" opacity="0.05"/>
+    </pattern>
+    <linearGradient id="edge" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#19d3da"/>
+      <stop offset="1" stop-color="#ff2a6d"/>
+    </linearGradient>
+    <clipPath id="slice1">
+      <rect x="0" y="0" width="900" height="0">
+        <animate attributeName="y" dur="3.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.60;0.64;0.68;0.72;0.76;1" values="0;58;92;66;104;0;0"/>
+        <animate attributeName="height" dur="3.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.60;0.64;0.68;0.72;0.76;1" values="0;14;9;22;7;0;0"/>
+      </rect>
+    </clipPath>
+    <clipPath id="slice2">
+      <rect x="0" y="0" width="900" height="0">
+        <animate attributeName="y" dur="3.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.18;0.21;0.24;0.62;0.66;0.70;0.78;1" values="0;80;62;0;96;72;54;0;0"/>
+        <animate attributeName="height" dur="3.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.18;0.21;0.24;0.62;0.66;0.70;0.78;1" values="0;10;16;0;8;18;12;0;0"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="200" rx="14" fill="#050505"/>
+  <rect width="900" height="200" rx="14" fill="url(#scan)"/>
+  <rect x="0.5" y="0.5" width="899" height="199" rx="14" fill="none" stroke="url(#edge)" stroke-opacity="0.55"/>
+
+  <g font-family="'Fira Code','JetBrains Mono','Cascadia Code',Consolas,'Courier New',monospace" font-weight="700" font-size="58" letter-spacing="4" text-anchor="middle">
+    <g>
+      <animateTransform attributeName="transform" type="translate" dur="3.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.60;0.62;0.66;0.70;0.76;1" values="0 0;-3 0;4 1;-2 0;3 -1;0 0;0 0"/>
+      <text x="447" y="100" fill="#19d3da" opacity="0.75">DAWID KONDRACKI</text>
+      <text x="453" y="100" fill="#ff2a6d" opacity="0.75">DAWID KONDRACKI</text>
+      <text x="450" y="100" fill="#e6edf3">DAWID KONDRACKI</text>
+    </g>
+
+    <g clip-path="url(#slice1)">
+      <rect width="900" height="200" fill="#050505"/>
+      <text x="450" y="100" fill="#19d3da">DAWID KONDRACKI
+        <animateTransform attributeName="transform" type="translate" dur="3.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.60;0.64;0.68;0.72;0.76;1" values="0 0;-18 0;12 0;-9 0;22 0;0 0;0 0"/>
+      </text>
+    </g>
+
+    <g clip-path="url(#slice2)">
+      <rect width="900" height="200" fill="#050505"/>
+      <text x="450" y="100" fill="#ff2a6d">DAWID KONDRACKI
+        <animateTransform attributeName="transform" type="translate" dur="3.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.18;0.21;0.24;0.62;0.66;0.70;0.78;1" values="0 0;14 0;-10 0;0 0;16 0;-20 0;8 0;0 0;0 0"/>
+      </text>
+    </g>
+  </g>
+
+  <text x="450" y="150" text-anchor="middle" font-family="'Fira Code','JetBrains Mono','Cascadia Code',Consolas,'Courier New',monospace" font-size="18" fill="#19d3da">&gt; co-founder and lead engineer @ finoo<tspan fill="#ff2a6d">_<animate attributeName="fill-opacity" values="1;0;1" dur="1s" repeatCount="indefinite" calcMode="discrete"/></tspan></text>
+
+  <rect x="0" y="-4" width="900" height="2" fill="url(#edge)" opacity="0.35">
+    <animate attributeName="y" values="-4;204" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
